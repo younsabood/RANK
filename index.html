@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download University Rank App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('1.jpg'); /* Update this path */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            position: relative;
+        }
+
+        .logo {
+            width: 60px; /* Set logo width */
+            height: 60px; /* Set logo height */
+            object-fit: cover; /* Ensures the logo retains its aspect ratio */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 100px auto; /* Center the container with space from the top */
+            background: rgba(255, 255, 255, 0.2); /* White with transparency */
+            backdrop-filter: blur(10px); /* Glass effect */
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+        }
+
+        h1 {
+            color: #ffdd57; /* Light yellow color for the title */
+            font-size: 2.5em; /* Larger font size */
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #000000; /* Black color for the text */
+            font-size: 1.2em; /* Slightly larger font size */
+            margin-bottom: 20px;
+        }
+
+        .download-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em; /* Larger font size for the button */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        /* Additional styling for responsiveness */
+        @media (max-width: 600px) {
+            .navbar {
+                padding: 10px 20px; /* Adjust navbar padding for smaller screens */
+            }
+
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em; /* Adjust title size for smaller screens */
+            }
+
+            .download-button {
+                padding: 10px 20px; /* Adjust button padding for smaller screens */
+                font-size: 1em; /* Adjust button font size */
+            }
+
+            .logo {
+                width: 150px; /* Maintain logo size for smaller screens */
+                height: 150px; /* Maintain logo size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="University Rank App Logo" class="logo"> <!-- Logo Image -->
+        <h1 style="color: #ffdd57; margin: 0;">University Rank App</h1> <!-- Title in Nav -->
+    </div>
+    <div class="container">
+        <p>Set and manage ranks for university students easily.</p>
+        <a href="path/to/your/app.exe" class="download-button" download>Download App</a>
+    </div>
+    <script>
+        // Optional JavaScript for additional functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Download page loaded');
+        });
+    </script>
+</body>
+</html>
